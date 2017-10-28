@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-10-28 15:19:33
+ * @version $Id$
+ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 400;
+    font-size: 1em;
+    color: #363636;
+    background: #ededed;
+}
+
+.container {
+    background: #fff;
+}
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    background: #fff;
+}
+
+.photo {
+    margin-top: -75px;
+}
+
+.photoHead {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    background: #ededed;
+    display: inline-block;
+}
+
+.photoHead img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+.intro span {
+    color: #F0563D;
+}
+
+.intro sup {
+    color: #666;
+}
+
+.intro h1 {
+    font-size: 20px;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+.intro h1::first-line {
+    font-size: 35px;
+}
+
+.con-sline {
+    margin: 0px;
+    padding: 0px;
+    height: 10px;
+}
+
+.sline {
+    margin: 0px;
+    padding: 0px;
+    height: 2px;
+    background: #ededed;
+}
+
+h2 {
+    color: #EC7263;
+}
+
+.aboutme p {
+    line-height: 18px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.yearevent {
+    margin: 0px;
+    padding: 0px;
+}
+
+.yearevent * {
+    //border:1px solid #000;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.yearevent .year {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.yearevent .event {
+    border-radius: 8px;
+    background: #EDEDED;
+    padding: 10px 10px 0px 10px;
+}
+.yearevent p {
+    font-size: 10px;
+}
+.yearevent h3{
+	font-size: 15px;
+}
+.contact i,
+h4,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact i {
+    font-size: 30px;
+    color: #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h4 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contact p {
+    font-size: 10px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.item-skills {
+    height: 25px;
+    background: #F0563D;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.skillcss{
+	width:90%;
+}
+.skilljq{
+	width:80%;
+}
+.skillphp{
+	width:75%;
+}
+.skilll2{
+	width:25%;
+}
+.exp{
+	margin-left: 15px;
+}
+.exp h3{
+	font-size: 15px;
+	font-weight: 700;
+	color: #263238;
+}
+.exp span,p{
+	font-size: 12px;
+	color: #666;
+}
+.expevent{
+	padding-left: 10px;
+}
+.language span,i{
+	font-size: 18px;
+	color: #999;
+}
+.language i{
+	color: #FF0000;
+}
+.notlike{
+	color: #999;
+}
+.hb{
+	font-size: 12px;
+	color: #fff;
+	float: left;
+	width:100px;
+	background: #B85A6F;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.hb i{
+	color: #fff;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.language,.hobbies{
+	margin-left: 5px;
+}
